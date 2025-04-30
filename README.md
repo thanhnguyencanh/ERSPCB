@@ -10,7 +10,7 @@ This is an official implementation for "ESRPCB: an Edge guided Super - Resolutio
 # 1. License
 
 
-If you use IRAF-SLAM in an academic work, please cite:
+If you use ESRPCB in an academic work, please cite:
   
     @article{thanhnc_ESRPCB,
       title={ESRPCB: an Edge guided Super - Resolution model and Ensemble learning for tiny Printed Circuit Board Defect detection},
