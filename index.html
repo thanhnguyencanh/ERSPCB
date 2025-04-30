@@ -285,7 +285,7 @@
         <tr>
           <td width=900px>
             <center>
-              <a href="docs/images/esrpcb_model.eps"><img src="docs/images/esrpcb_model.eps" width="900px"></img>
+              <a href="docs/images/esrpcb_model.png"><img src="docs/images/esrpcb_model.png" width="900px"></img>
                 </href></a><br>
             </center>
           </td>
@@ -299,26 +299,26 @@
   </table>
 
   <br><br>
-  <table align="center" width="1200px">
+  <table align="center" width="600px">
     <tr>
-      <td width="300px" align="center">
+      <td width="150px" align="center">
         <a href="docs/images/orig res.png" target="_blank">
-          <img src="docs/images/orig res.png" width="290px">
+          <img src="docs/images/orig res.png" width="140px">
         </a>
       </td>
-      <td width="300px" align="center">
+      <td width="150px" align="center">
         <a href="docs/images/srresnet.png" target="_blank">
-          <img src="docs/images/srresnet.png" width="290px">
+          <img src="docs/images/srresnet.png" width="140px">
         </a>
       </td>
-      <td width="300px" align="center">
+      <td width="150px" align="center">
         <a href="docs/images/res edsr.png" target="_blank">
-          <img src="docs/images/res edsr.png" width="290px">
+          <img src="docs/images/res edsr.png" width="140px">
         </a>
       </td>
-      <td width="300px" align="center">
+      <td width="150px" align="center">
         <a href="docs/images/res_cat.png" target="_blank">
-          <img src="docs/images/res_cat.png" width="290px">
+          <img src="docs/images/res_cat.png" width="140px">
         </a>
       </td>
     </tr>
@@ -332,6 +332,11 @@
     </tr>
   </table>
 
+  <hr>
+  <center>
+    <h1>Experiments Results</h1>
+  </center>
+
   <br><br>
   <table align=center width=900px>
     <tr>
@@ -343,7 +348,8 @@
     </tr>
     <td width=900px>
       <center>
-        <span style="font-size:18px"><i>rade-off between accuracy metrics (mAP50) and model parameters on the PCB Defect
+        <span style="font-size:18px"><i>Trade-off between accuracy metrics (mAP50) and model parameters on the PCB
+            Defect
             dataset with various SR models and the multimodal detection model. Our method is highlighted in
             red.</i>
       </center>
@@ -358,30 +364,32 @@
     <tr>
       <td width=900px>
         <center>
-          <a href="docs/images/semseg.png"><img src="docs/images/semseg.png" width="800px"></img></href></a><br>
+          <a href="docs/images/srvisual.png"><img src="docs/images/srvisual.png" width="800px"></img></href></a><br>
         </center>
       </td>
     </tr>
     <td width=900px>
       <center>
-        <span style="font-size:18px"><i>Structure and method for semantic extraction</i>
+        <span style="font-size:18px"><i>isual comparison of super-resolution results for various models on ×4 scale. The
+            ground truth and reconstructed images are compared across metrics (PSNR/SSIM). Red highlights the best
+            performance, and blue indicates the second-best.</i>
       </center>
     </td>
     </tr>
   </table>
+
   <br><br>
   <table align=center width=600px>
     <tr>
       <td width=900px>
         <center>
-          <a href="docs/images/fusion.png"><img src="docs/images/fusion.png" width="900px"></img></href></a><br>
+          <a href="docs/images/dfvisual.png"><img src="docs/images/dfvisual.png" width="900px"></img></href></a><br>
         </center>
       </td>
     </tr>
     <td width=900px>
       <center>
-        <span style="font-size:18px"><i> To fuse semantic information from multiple view, we introduced semantic fusion
-            scheme.</i>
+        <span style="font-size:18px"><i> Defect detection results comparison..</i>
       </center>
     </td>
     </tr>
@@ -390,96 +398,38 @@
   <br>
   <table align=center width=800>
 
+
     <hr>
     <center>
-      <h1>Experiments</h1>
+      <h1>Code</h1>
     </center>
+    <table align=center width=800px>
+      <tr>
+        <center> <br>
+          <span style="font-size:28px">&nbsp;<a href='https://github.com/thanhnguyencanh/ERSPCB'>[github]</a>
 
-  </table>
-  <br><br>
-  <table align=center width=900px>
-    <tr>
-      <td width=900px>
-        <center>
-          <a href="docs/images/tpe.png"><img src="docs/images/tpe.png" width="800px"></img></href></a><br>
-
+            <span style="font-size:28px"></a></span>
+            <br>
         </center>
-      </td>
-    </tr>
-    <td width=900px>
-      <center>
-        <span style="font-size:18px"><i> Comparison of trajectory for ORB-SLAM2, Our system and ground truth in X-Y and
-            X-Z axis.</i>
-      </center>
-    </td>
-    </tr>
-  </table>
+      </tr>
+    </table>
+    <br>
+    <hr>
 
-  <br><br>
-  <table align=center width=600px>
-    <tr>
-      <td width=900px>
-        <center>
-          <a href="docs/images/rpe.png"><img src="docs/images/rpe.png" width="600px"></img></href></a><br>
-        </center>
-      </td>
-    </tr>
-    <td width=900px>
-      <center>
-        <span style="font-size:18px"><i> Comparison of Relative Rose Error (RPE) between ORB-SLAM2 and our system.</i>
-      </center>
-    </td>
-    </tr>
-  </table>
-
-  <br><br>
-  <table align=center width=600px>
-    <tr>
-      <td width=900px>
-        <center>
-          <a href="docs/images/visual.png"><img src="docs/images/visual.png" width="800px"></img></href></a><br>
-        </center>
-      </td>
-    </tr>
-    <td width=900px>
-      <center>
-        <span style="font-size:18px"><i> 3D visual representation of the obtained semantic maps.</i>
-      </center>
-    </td>
-    </tr>
-  </table>
-
-  <hr>
-  <center>
-    <h1>Code</h1>
-  </center>
-  <table align=center width=800px>
-    <tr>
-      <center> <br>
-        <span style="font-size:28px">&nbsp;<a href='https://github.com/thanhnguyencanh/ERSPCB'>[github]</a>
-
-          <span style="font-size:28px"></a></span>
-          <br>
-      </center>
-    </tr>
-  </table>
-  <br>
-  <hr>
-
-  <center>
-    <h1>Citation</h1>
-  </center>
-  <table align=center width=800px>
-    <tr>
-      <left> <br>
-        <span style="font-size:18px">1. HoangVan X., Canh T. N., Dinh B. D., Nguyen V-T. <a
-            href='https://thanhnguyencanh.github.io/ERSPCB/'>ESRPCB: an Edge guided Super - Resolution model and
-            Ensemble learning for tiny Printed Circuit Board Defect detection</a>. Symposium on System Integration
-          (EAAI), 2025.
+    <center>
+      <h1>Citation</h1>
+    </center>
+    <table align=center width=800px>
+      <tr>
+        <left> <br>
+          <span style="font-size:18px">1. HoangVan X., Canh T. N., Dinh B. D., Nguyen V-T. <a
+              href='https://thanhnguyencanh.github.io/ERSPCB/'>ESRPCB: an Edge guided Super - Resolution model and
+              Ensemble learning for tiny Printed Circuit Board Defect detection</a>. Symposium on System Integration
+            (EAAI), 2025.
 
 
-          <br><br>
-          <code>@article{hoangvan2025esrpcb, 
+            <br><br>
+            <code>@article{hoangvan2025esrpcb, 
                                   <br>
                                     author    = {HoangVan, Xiem and Canh, Thanh Nguyen and Dang, Bui Dinh and Nguyen, Van-Truong}, 
                                   <br>
@@ -497,37 +447,38 @@
                                   <br>
                                 } 
                               </code>
-      </left>
-    </tr>
-    <br><br>
-
-  </table>
-  <br>
-  <hr>
-
-  <table align=center width=1100px>
-    <tr>
-      <td>
-        <left>
-          <center>
-            <h1>Acknowledgements</h1>
-          </center>
-          This research is funded by Vietnam National Foundation for Science and Technology Development (NAFOSTED) under
-          grant number NCUD.022024.09.
-          <br>
-          This webpage template was borrowed from <a
-            href="https://akanazawa.github.io/cmr/">https://akanazawa.github.io/cmr/</a>.
         </left>
-      </td>
-    </tr>
-  </table>
-  <div style="display:inline-block;width:200px;">
-    <script type="text/javascript"
-      src="//rf.revolvermaps.com/0/0/7.js?i=5ho5yi7e4v7&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;sx=0"
-      async="async"></script>
-  </div>
+      </tr>
+      <br><br>
 
-  <br><br>
+    </table>
+    <br>
+    <hr>
+
+    <table align=center width=1100px>
+      <tr>
+        <td>
+          <left>
+            <center>
+              <h1>Acknowledgements</h1>
+            </center>
+            This research is funded by Vietnam National Foundation for Science and Technology Development (NAFOSTED)
+            under
+            grant number NCUD.022024.09.
+            <br>
+            This webpage template was borrowed from <a
+              href="https://akanazawa.github.io/cmr/">https://akanazawa.github.io/cmr/</a>.
+          </left>
+        </td>
+      </tr>
+    </table>
+    <div style="display:inline-block;width:200px;">
+      <script type="text/javascript"
+        src="//rf.revolvermaps.com/0/0/7.js?i=5ho5yi7e4v7&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;sx=0"
+        async="async"></script>
+    </div>
+
+    <br><br>
 </body>
 
 </html>
