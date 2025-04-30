@@ -198,7 +198,7 @@
         <center>
           <span style="font-size:20px">School of Information Science, JAIST, Japan <br> VNU University of Engineering
             and Technology, Vietnam <br /><a
-              href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence">EAAA</a>,
+              href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence">EAAI</a>,
             2025.</span>
         </center>
       </td>
@@ -211,12 +211,12 @@
     <tr>
       <td align=center width=100px>
         <center>
-          <span style="font-size:20px"><a href="https://arxiv.org/pdf/2401.08134">[Paper]</a></span>
+          <span style="font-size:20px"><a href="">[Paper]</a></span>
         </center>
       </td>
       <td align=center width=100px>
         <center>
-          <span style="font-size:20px"><a href="https://github.com/thanhnguyencanh/S3M_SLAM">[Code]</a></span>
+          <span style="font-size:20px"><a href="https://github.com/thanhnguyencanh/ERSPCB">[Code]</a></span>
         </center>
       </td>
 
@@ -262,7 +262,7 @@
           Chong<br><br>
           ESRPCB: an Edge guided Super - Resolution model and Ensemble learning for tiny Printed Circuit Board Defect
           detection<br><br>
-          EAAA 2025.<br><br>
+          EAAI 2025.<br><br>
           <a href="">[pdf]</a> &nbsp; &nbsp;
           <!--    <a href="./resources/bibtex.txt">[Bibtex]</a> -->
           <!-- [hosted on <a href="#">arXiv</a>]</a> -->
@@ -272,40 +272,6 @@
 
 
 
-
-  <!-- <hr>
-                <center><h1>Overview and Results</h1></center>
-                <table align=center width=900px>
-                    <tr>
-                        <td width=600px>
-                          <center>
-                            <div class = "video">
-                                <iframe width="900" height="540" src="https://www.youtube.com/embed/p_5nGipiVlw?si=0JPksQIcDpilhVTi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                           </div>
-                        </center>
-                        </td>
-                    </tr>
-                </table>
-                <br>
-          <hr> -->
-  <hr>
-  <center>
-    <h1>Overview and Results</h1>
-  </center>
-  <table align=center width=900px>
-    <tr>
-      <td width=600px>
-        <center>
-          <video width="900" muted autoplay loop>
-            <source src="docs/mp4/sim.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </center>
-      </td>
-    </tr>
-  </table>
-  <br>
-  <hr>
   <!-- <table align=center width=550px> -->
   <table align=center width=800>
     <center>
@@ -313,50 +279,80 @@
     </center>
     <tr>
       <br>
-      <!--
-            <td width=600px>
-                      <center>
-                          <span style="font-size:28px">Settings
-                          <br>
-                          <br>
-                    </center>
-                    </td>
--->
+
       <br>
       <table align=center width=900px>
         <tr>
           <td width=900px>
             <center>
-              <a href="docs/images/ProposedSystem.png"><img src="docs/images/ProposedSystem.png" width="900px"></img>
+              <a href="docs/images/esrpcb_model.eps"><img src="docs/images/esrpcb_model.eps" width="900px"></img>
                 </href></a><br>
             </center>
           </td>
         </tr>
         <td width=900px>
           <center>
-            <span style="font-size:18px"><i> Proposed S3M SLAM Architecture: The system is composed of three units: a
-                full 6 DoF pose estimation of the drone, a 3D semantic segmentation branch, and a semantic fusion
-                scheme.</i>
+            <span style="font-size:18px"><i> The architecture of the proposed ESRPCB Network.</i>
           </center>
         </td>
     </tr>
   </table>
+
+  <br><br>
+  <table align="center" width="1200px">
+    <tr>
+      <td width="300px" align="center">
+        <a href="docs/images/orig res.png" target="_blank">
+          <img src="docs/images/orig res.png" width="290px">
+        </a>
+      </td>
+      <td width="300px" align="center">
+        <a href="docs/images/srresnet.png" target="_blank">
+          <img src="docs/images/srresnet.png" width="290px">
+        </a>
+      </td>
+      <td width="300px" align="center">
+        <a href="docs/images/res edsr.png" target="_blank">
+          <img src="docs/images/res edsr.png" width="290px">
+        </a>
+      </td>
+      <td width="300px" align="center">
+        <a href="docs/images/res_cat.png" target="_blank">
+          <img src="docs/images/res_cat.png" width="290px">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <span style="font-size:16px; font-style:italic;">
+          The comparison of residual blocks in original ResNet (He et al. (2016)), SRResNet (Ledig et al. (2017)), EDSR
+          (Lim et al. (2017)) and our ResCat.
+        </span>
+      </td>
+    </tr>
+  </table>
+
   <br><br>
   <table align=center width=900px>
     <tr>
       <td width=600px>
         <center>
-          <a href="docs/images/poseEst.png"><img src="docs/images/poseEst.png" width="800px"></img></href></a><br>
+          <a href="docs/images/param.png"><img src="docs/images/param.png" width="500px"></img></href></a><br>
         </center>
       </td>
     </tr>
     <td width=900px>
       <center>
-        <span style="font-size:18px"><i>3D Pose Estimation.</i>
+        <span style="font-size:18px"><i>rade-off between accuracy metrics (mAP50) and model parameters on the PCB Defect
+            dataset with various SR models and the multimodal detection model. Our method is highlighted in
+            red.</i>
       </center>
     </td>
     </tr>
   </table>
+
+
+
   <br><br>
   <table align=center width=600px>
     <tr>
@@ -460,7 +456,7 @@
   <table align=center width=800px>
     <tr>
       <center> <br>
-        <span style="font-size:28px">&nbsp;<a href='https://github.com/thanhnguyencanh/S3M_SLAM'>[github]</a>
+        <span style="font-size:28px">&nbsp;<a href='https://github.com/thanhnguyencanh/ERSPCB'>[github]</a>
 
           <span style="font-size:28px"></a></span>
           <br>
@@ -476,20 +472,20 @@
   <table align=center width=800px>
     <tr>
       <left> <br>
-        <span style="font-size:18px">1. Canh T. N., Nguyen V-T, HoangVan X., Elibol A., Chong A.Y. <a
-            href='https://thanhnguyencanh.github.io/S3M_SLAM/'>ESRPCB: an Edge guided Super - Resolution model and
+        <span style="font-size:18px">1. HoangVan X., Canh T. N., Dinh B. D., Nguyen V-T. <a
+            href='https://thanhnguyencanh.github.io/ERSPCB/'>ESRPCB: an Edge guided Super - Resolution model and
             Ensemble learning for tiny Printed Circuit Board Defect detection</a>. Symposium on System Integration
-          (EAAA), 2025.
+          (EAAI), 2025.
 
 
           <br><br>
           <code>@article{hoangvan2025esrpcb, 
                                   <br>
-                                    author    = {Canh, Thanh Nguyen and Nguyen, Van-Truong and HoangVan, Xiem and Elibol, Armagan and Chong, Nak Young}, 
+                                    author    = {HoangVan, Xiem and Canh, Thanh Nguyen and Dang, Bui Dinh and Nguyen, Van-Truong}, 
                                   <br>
                                     title     = {{ESRPCB: an Edge guided Super - Resolution model and Ensemble learning for tiny Printed Circuit Board Defect detection}}, 
                                   <br>
-                                    booktitle = {2024 IEEE/SICE International Symposium on System Integration (SII)}, 
+                                    booktitle = {Engineering Applications of Artificial Intelligence (EAAI)}, 
                                   <br>
                                     year      = {2025}, 
                                   <br>
@@ -516,8 +512,8 @@
           <center>
             <h1>Acknowledgements</h1>
           </center>
-          We gratefully acknowledge support fromthe Asian Office of Aerospace Research and Development under
-          Grant/Cooperative Agreement Award No. FA2386-22-1-4042.
+          This research is funded by Vietnam National Foundation for Science and Technology Development (NAFOSTED) under
+          grant number NCUD.022024.09.
           <br>
           This webpage template was borrowed from <a
             href="https://akanazawa.github.io/cmr/">https://akanazawa.github.io/cmr/</a>.
