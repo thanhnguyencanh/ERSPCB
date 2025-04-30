@@ -2,7 +2,7 @@
 
 ### V1.0, April 16th, 2025
 
-**Authors:** [Thanh Nguyen Canh](https://thanhnguyencanh.github.io/), Bao Nguyen Quoc, HaoLan Zhang, Bupesh Rethinam Veeraiah, [Xiem HoangVan](https://sites.google.com/site/xiemhoang/), [Nak Young Chong](https://www.jaist.ac.jp/robot/).
+**Authors:** [Xiem HoangVan](https://sites.google.com/site/xiemhoang/), [Thanh Nguyen Canh](https://thanhnguyencanh.github.io/), Dang Bui Dinh, Van-Truong Nguyen 
 
 
 This is an official implementation for "ESRPCB: an Edge guided Super - Resolution model and Ensemble learning for tiny Printed Circuit Board Defect detection".
@@ -12,9 +12,9 @@ This is an official implementation for "ESRPCB: an Edge guided Super - Resolutio
 
 If you use IRAF-SLAM in an academic work, please cite:
   
-    @article{thanh_IRAF-SLAM,
-      title={IRAF-SLAM: An Illumination-Robust and Adaptive Feature-Culling Front-End for Visual SLAM in Challenging Environments},
-      author={Thanh Nguyen Canh, Bao Nguyen Quoc, HaoLan Zhang, Bupesh Rethinam Veeraiah, Xiem HoangVan, and Nak Young Chong},
+    @article{thanhnc_ESRPCB,
+      title={ESRPCB: an Edge guided Super - Resolution model and Ensemble learning for tiny Printed Circuit Board Defect detection},
+      author={Xiem Hoang Van, Thanh Nguyen Canh, Dang Bui Dinh, Van-Truong Nguyen},
       journal={}, 
       volume={},
       number={},
